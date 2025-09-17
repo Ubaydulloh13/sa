@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 0px;
+    border-bottom: 1px solid #E5E5E5
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 16px 40px;
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14.75px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background-color: #FC004A;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.d1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.ds {
+    text-align: center;
+    margin: 40px auto;
+    margin-left: 250px;
+    width: 1000px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.card {
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    width: 235px;
+    height: 361px;
+}
+
+.card h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17.66px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.card h3 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18.28px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FC004A;
+    margin-left: 20px;
+}
+.btn1{
+    background-color: #FC004A;
+    border: none;
+    font-size: 40px;
+    padding: 0 10px;
+    color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.menu-btn{
+    font-size: 24px;
+    color: #FC004A;
+    border: none;
+    background-color: white;
+    display: none;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:768px){
+    header img{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        padding: 30px;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+footer .container{
+    margin-top: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
